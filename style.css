@@ -1,0 +1,486 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+  color: #eee;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #eee;
+  border: #000;
+}
+
+#eyecatch {
+    height: 600px;
+    background: url(../20210220_hiurta/img/eyecatch.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#eyecatch p {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ccc;
+    line-height: 1;
+}
+
+/* .about-left {
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+}
+
+.about-left h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 70%;
+    color: #ccc; 
+    padding-top: 150px; 
+    padding-left: 100px;
+}
+
+.about-left p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    color: #ccc;  
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.about-button {
+    font-size: 20px;
+    font-weight: bold;
+    color:#000;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+}
+
+.about-right img {
+    display: block;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 50%;
+}
+
+#service {
+    width: 100%;
+    margin-top: 30px ;
+    background: rgb(241, 241, 241);
+}
+
+#service .service-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #ccc;
+
+} */
+
+.about-left {
+    background: url(../20210220_hiurta/img/mission-img.jpg) no-repeat;
+    background-size: 40%;
+    background-position: 80% 120%;
+    background-color: #000;
+    height: 500px;
+    margin-bottom: 100px;   
+}
+
+.about-left h2 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 70%;
+    color: #ccc; 
+    padding-top: 150px; 
+    padding-left: 100px;
+}
+
+.about-left p {
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    color: #ccc; 
+    padding-top: 50px; 
+    padding-left: 100px;    
+}
+
+.about-button {
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    color: #ccc; 
+    padding-top: 50px; 
+    padding-left: 100px;    
+}
+
+#service1 {
+    height: 600px;
+    background-color: rgb(196, 195, 195);
+    background: url(../20210220_hiurta/img/service2.jpg) no-repeat;
+    background-size: 40%;
+    background-position: right;
+    background-color: rgb(175, 174, 174);
+}
+
+#service1 .service-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#service1 .service-content1 {
+    margin: 100px 0% 0px 20%;
+    text-align: left;
+    width: 50%;
+    height: 250px;   
+    border: solid 3px #000;
+    background-color: rgb(255, 255, 255);
+}
+
+#service1 .service-content1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 50px 10px;
+    color: #000;
+}
+
+#service1 .service-content1 p {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #000;
+}
+
+#service1 .service-button {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+ 
+    padding-right: 50px;
+    text-align: right;
+    color: #000;
+
+}
+
+#service2 {
+    height: 400px;
+    background-color: rgb(196, 195, 195);
+    background: url(../20210220_hiurta/img/service1.jpg) no-repeat;
+    background-size: 40%;
+    background-position: left;
+    background-color: rgb(175, 174, 174);
+    padding-bottom: 200px;
+
+}
+
+
+#service2 .service-content2 {
+    margin: 100px 0% 0px 30%;
+    width: 50%;
+    height: 250px;   
+    border: solid 3px #000;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+#service2 .service-content2 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 50px 10px;
+    color: #000;
+}
+
+#service2 .service-content2 p {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #000;
+}
+
+
+#service2 .service-button {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+ 
+    padding-right: 50px;
+    text-align: right;
+    color: #000;
+}
+
+#service2 .service-title {
+    color: rgb(175, 174, 174);
+}
+
+#business {
+    background: #fff;
+    height: 200px;
+}
+
+.business-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cccccc;
+    width: 50%;
+    height: 100px;
+    background: url(../20210220_hiurta/img/company.jpeg) no-repeat;
+    background-size: cover;
+    margin: 30px 10px 30px;
+}
+
+.company h2 {
+    margin: 30px auto 5px;
+}
+
+.company p {
+    font-size: 15px;
+}
+
+.recruit {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cccccc;
+    width: 50%;
+    height: 100px;
+    background: url(../20210220_hiurta/img/recruit.jpg) no-repeat;
+    background-size: cover;
+    margin: 30px 10px 30px;
+}
+
+.recruit h2 {
+    margin: 30px auto 5px;
+}
+
+.recruit p {
+    font-size: 15px;
+}
+
+
+
+.faq-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100px;
+    
+    
+    background: url(../20210220_hiurta/img/contact-bg.jpg) no-repeat;
+    background-size: cover;  
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.faq-wrap h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cccccc;
+    margin-left: 20px;
+}
+
+.faq-wrap p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+#end {
+    text-align: center;
+    background: url(../20210220_hiurta/img/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+#end .contact1 {
+    margin-top: 60px;
+    color: #ccc;  
+      
+}
+
+#end .contact1 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+#end .contact1 p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#end .contact2 {
+    color: #ccc;
+}
+
+#end .contact2 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#end .contact2 p {
+    font-size: 10px;
+    padding: 20px;
+}
+
+.contact-button {
+    font-size: 20px;
+   padding: 10px;
+}
+
+#footer {
+    height: 100px;
+    background-color: #000;  
+}
+
+#footer  {
+    color: #eee;
+    text-align: center;
+    font-size: 10px;
+    position: center;
+}
+
