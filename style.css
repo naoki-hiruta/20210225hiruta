@@ -87,7 +87,7 @@ hr {
     display:block;
     height:1px;
     border:0;  
-    border-top:1px solid #cccccc;
+    border-top:1px solid #fff;
     margin:1em 0;
     padding:0;
 }
@@ -111,7 +111,7 @@ input, select {
   font-size: 20px;
   font-weight: bold;
   margin-left: 30px;
-  color: #eee;
+  color: #fff;
   line-height: 70px;
 }
 
@@ -125,8 +125,8 @@ input, select {
 }
 
 .header-nav a {
-  color: #eee;
-  border: #000;
+  color: #fff;
+  text-decoration: none;
 }
 
 #eyecatch {
@@ -143,13 +143,13 @@ input, select {
     font-weight: bold;
     top: 50%;
     left: 20%;
-    color: #ccc;
+    color: #fff;
 }
 
 .eyecatch-wrap {
     display: flex;
     justify-content: flex-end;
-    color: #ccc;
+    color: #fff;
     position: absolute;
     top: 560px;
     right: 0px;
@@ -188,7 +188,7 @@ input, select {
     font-size: 50px;
     font-style: italic;
     font-weight: bold;
-    color: #ccc;
+    color: #fff;
     line-height: 1;
 }
 
@@ -228,7 +228,7 @@ input, select {
     font-size: 30px;
     font-weight: bold;
     width: 70%;
-    color: #ccc; 
+    color: #fff; 
     padding-top: 150px; 
     padding-left: 100px;
 }
@@ -237,7 +237,7 @@ input, select {
     font-size: 20px;
     font-weight: bold;
     width: 80%;
-    color: #ccc;  
+    color: #fff;  
     padding-top: 50px;
     padding-left: 100px;
 }
@@ -269,7 +269,7 @@ input, select {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: #ccc;
+    color: #fff;
 
 } */
 
@@ -286,7 +286,7 @@ input, select {
     font-size: 30px;
     font-weight: bold;
     width: 70%;
-    color: #ccc; 
+    color: #fff; 
     padding-top: 150px; 
     padding-left: 100px;
 }
@@ -295,7 +295,7 @@ input, select {
     font-size: 15px;
     font-weight: bold;
     width: 80%;
-    color: #ccc; 
+    color: #fff; 
     padding-top: 50px; 
     padding-left: 100px;    
 }
@@ -304,9 +304,13 @@ input, select {
     font-size: 15px;
     font-weight: bold;
     width: 80%;
-    color: #ccc; 
+    color: #fff; 
     padding-top: 50px; 
     padding-left: 100px;    
+}
+
+.about-button .button {
+    background: #fff;
 }
 
 #service1 {
@@ -354,7 +358,7 @@ input, select {
     font-size: 15px;
     font-weight: normal;
     padding-top: 10px;
- 
+    
     padding-right: 50px;
     text-align: right;
     color: #000;
@@ -403,7 +407,7 @@ input, select {
     font-size: 15px;
     font-weight: normal;
     padding-top: 10px;
- 
+    
     padding-right: 50px;
     text-align: right;
     color: #000;
@@ -411,6 +415,11 @@ input, select {
 
 #service2 .service-title {
     color: rgb(175, 174, 174);
+}
+
+.service-button .button {
+    background: #fff;
+    border: solid 0.5px;
 }
 
 #business {
@@ -428,7 +437,7 @@ input, select {
 .company {
     font-size: 20px;
     font-weight: bold;
-    color: #cccccc;
+    color: #fff;
     width: 50%;
     height: 100px;
     background: url(./img/company.jpeg) no-repeat;
@@ -447,7 +456,7 @@ input, select {
 .recruit {
     font-size: 20px;
     font-weight: bold;
-    color: #cccccc;
+    color: #fff;
     width: 50%;
     height: 100px;
     background: url(./img/recruit.jpg) no-repeat;
@@ -483,14 +492,14 @@ input, select {
 .faq-wrap h2 {
     font-size: 20px;
     font-weight: bold;
-    color: #cccccc;
+    color: #fff;
     margin-left: 20px;
 }
 
 .faq-wrap p {
     font-size: 15px;
     font-weight: bold;
-    color: #cccccc;
+    color: #fff;
 }
 
 #end {
@@ -505,7 +514,7 @@ input, select {
 
 #end .contact1 {
     margin-top: 60px;
-    color: #ccc;  
+    color: #fff;  
       
 }
 
@@ -521,7 +530,7 @@ input, select {
 }
 
 #end .contact2 {
-    color: #ccc;
+    color: #fff;
 }
 
 #end .contact2 h2 {
@@ -538,11 +547,11 @@ input, select {
 .contact-button .button{
     font-size: 10px;
     padding: 10px;
-    color: #ccc;
+    color: #fff;
   
     background-color: transparent;
     
-    border: solid 2px #ccc;
+    border: solid 2px #fff;
 
 }
 
@@ -554,7 +563,7 @@ input, select {
 }
 
 #footer  {
-    color: #eee;
+    color: #fff;
     text-align: center;
     font-size: 10px;
     position: center;
